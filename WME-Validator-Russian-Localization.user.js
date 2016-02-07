@@ -749,7 +749,7 @@ window.WME_Validator_Russia = {
   "132.enabled": true,
   "132.params": {
     "template": "${street}",
-    "regexp": "/ул\\.|пр-т|пр-д|пер\\.|пл-дь|наб\\.|пр\\.|просп\\.|пл\\.|б-р|бул\\.|наб\\.|\\sш\\.$|^ш\\.|ал\\.|туп\\.|алл\\./",
+    "regexp": "/(^|\\s)(мкр[.н]?|им|пос|д|р-д|ул|пр-д|пер|пл-дь|наб|пр|просп|пр-к?т|пл|б-р|бул|наб|ш|дор|ал|туп|алл|р)(\\.?|\\s|$)/i",
     "titleEN": "Abbreviated street type",
     "problemEN": "Abbreviated street type might cause search problems",
     "solutionEN": "Replace abbreviated street type with complete one"
