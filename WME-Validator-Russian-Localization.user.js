@@ -819,7 +819,7 @@ window.WME_Validator_Russia = {
   "173.title.en": "No space before/after street abbreviation",
   "173.title": "Нет пробела в названии улицы",
   "173.problem.en": "No space before ('1943r.') or after ('st.Jan') an abbreviation in the street name",
-  "173.problem": "Нет пробела до ('1905г.') или после ('ул.Тульская') топонима в названии улицы",
+  "173.problem": "Нет пробела до ('1905г.') или после ('ул.Ленина') топонима в названии улицы",
   "173.solution.en": "Add a space before/after the abbreviation",
   "173.solution": "Добавьте пробел в требуемое место",
   "175.title.en": "Empty street name",
