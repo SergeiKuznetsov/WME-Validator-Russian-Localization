@@ -794,7 +794,7 @@ window.WME_Validator_Russia = {
   "135.enabled": true,
   "135.params": {
     "template": "${altStreet}",
-    "regexp": "[a-zA-Z]",
+    "regexp": "/[MAP]\\d|\\d{2}[AKH]-\\d/",
     "titleEN": "Alternative name contains Latin letters",
     "problemEN": "There are Latin letters in the Alternative name",
     "solutionEN": "Replace Latin characters with Cyrillic ones"
