@@ -764,18 +764,18 @@ window.WME_Validator_Russia = {
   "133.enabled": true,
   "133.params": {
     "template": "${street}",
-    "regexp": "/[MAP]\\d|\\d{2}[AKH]-\\d/",
+    "regexp": "/[MAP]\\d|\\d{2}[AKH]-\\d|\\d[АВ](:|\\s+|$)/",
     "titleEN": "Latin characters in the name highway",
     "problemEN": "In the name of highway has Latin characters",
     "solutionEN": "Replace Latin characters with Cyrillic ones"
   },
   "133.problemLink": "https://www.waze.com/forum/viewtopic.php?f=785&t=88360&p=749249#p749249",
   "133.title.en": "Custom check",
-  "133.title": "Латинские буквы в индексе трассы",
+  "133.title": "Латинские буквы в индексе трассы, либо русские буквы в названии съезда",
   "133.problem.en": "The segment matched custom conditions",
-  "133.problem": "В индексе трассы (М7, А102, Р151) есть латинские буквы",
+  "133.problem": "В индексе трассы (М7, А102, Р151) есть латинские буквы, либо в съезде МКАД вставлена русская буква",
   "133.solution.en": "Solve the issue",
-  "133.solution": "Замените латинские буквы русскими",
+  "133.solution": "Замените латинские буквы русскими в трассах, и русские латинскими на съездах МКАД",
   "134.enabled": true,
   "134.params": {
     "template": "${street}",
