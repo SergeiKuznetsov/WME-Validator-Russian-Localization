@@ -771,7 +771,7 @@ window.WME_Validator_Russia = {
   },
   "133.problemLink": "https://www.waze.com/forum/viewtopic.php?f=785&t=88360&p=749249#p749249",
   "133.title.en": "Custom check",
-  "133.title": "Латинские буквы в индексе трассы, либо русские буквы в названии съезда",
+  "133.title": "Латинские буквы в индексе трассы",
   "133.problem.en": "The segment matched custom conditions",
   "133.problem": "В индексе трассы (М7, А102, Р151) есть латинские буквы, либо в съезде МКАД вставлена русская буква",
   "133.solution.en": "Solve the issue",
