@@ -764,7 +764,7 @@ window.WME_Validator_Russia = {
   "133.enabled": true,
   "133.params": {
     "template": "${street}",
-    "regexp": "/[MAP]\\d|\\d{2}[AKH]-\\d|\\d[АВ](:|\\s+|$)/",
+    "regexp": "/[MAP]\\d|\\d{2}[AKH]-\\d|^\\d+[АВ](:|\\s+|$)/",
     "titleEN": "Latin characters in the name highway",
     "problemEN": "In the name of highway has Latin characters",
     "solutionEN": "Replace Latin characters with Cyrillic ones"
@@ -793,6 +793,7 @@ window.WME_Validator_Russia = {
   "134.solution": "Укажите название сегмента с использованием статусной части",
   "135.enabled": true,
   "135.params": {
+
     "template": "${altStreet}",
     "regexp": "/[MAP]\\d|\\d{2}[AKH]-\\d/",
     "titleEN": "Alternative name contains Latin letters",
