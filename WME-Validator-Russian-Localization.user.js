@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                WME Validator Localization for Russia
-// @version             1.1.16
+// @version             1.1.18
 // @description         This script localizes WME Validator for Russia. You also need main package (WME Validator) installed.
 // @match               https://editor-beta.waze.com/*editor/*
 // @match               https://www.waze.com/*editor/*
@@ -43,7 +43,7 @@ window.WME_Validator_Russia = {
   ],
   ".codeISO": "RU",
   ".author": "Manzareck and Griev0us",
-  ".updated": "2016-02-07",
+  ".updated": "2016-06-03",
   ".link": " ",
   ".lng": "RU",
   "city.consider.en": "consider this city name:",
@@ -394,10 +394,6 @@ window.WME_Validator_Russia = {
   "scanner.ext.text": "Отчеты внешних скриптов",
   "scanner.ext.tip.en": "Report segments highlighted by WME Toolbox or WME Color Highlights",
   "scanner.ext.tip": "Отчет по сегментам, подсвеченных скриптами WME Toolbox или WME Color Highlights",
-  "advanced.atbottom.text.en": "At the bottom",
-  "advanced.atbottom.text": "Внизу экрана",
-  "advanced.atbottom.tip.en": "Put WME Validator at the bottom of the page",
-  "advanced.atbottom.tip": "Поместить WME Validator в нижней части страницы",
   "custom.template.text.en": "<a target='_blank' href='https://www.waze.com/forum/viewtopic.php?t=76488&p=749456#p749456'>Custom template</a>",
   "custom.template.text": "<a target='_blank' href='https://www.waze.com/forum/viewtopic.php?t=76488&p=749456#p749456'>Шаблон</a>",
   "custom.template.tip.en": "User-defined custom check expandable template.\n\nYou may use the following expandable variables:\nAddress:\n  ${country}, ${state}, ${city}, ${street},\n  ${altCity[index or delimeter]}, ${altStreet[index or delimeter]}\nSegment properties:\n  ${type}, ${typeRank}, ${toll}, ${direction}, ${elevation}, ${lock},\n  ${length}, ${ID}\nHelpers:\n  ${drivable}, ${roundabout}, ${hasHNs},\n  ${Uturn}, ${deadEnd}, ${softTurns},\n  ${deadEndA}, ${partialA},\n  ${deadEndB}, ${partialB}\nConnectivity:\n  ${segmentsA}, ${inA}, ${outA}, ${UturnA},\n  ${segmentsB}, ${inB}, ${outB}, ${UturnB}",
@@ -793,7 +789,6 @@ window.WME_Validator_Russia = {
   "134.solution": "Укажите название сегмента с использованием статусной части",
   "135.enabled": true,
   "135.params": {
-
     "template": "${altStreet}",
     "regexp": "/[MAP]\\d|\\d{2}[AKH]-\\d/",
     "titleEN": "Alternative name contains Latin letters",
